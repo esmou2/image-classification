@@ -5,6 +5,7 @@ This is a simple FastAPI application that provides an endpoint to classify image
 
 ## Requirements
 * Python 3.9 or higher
+* Docker
 * FastAPI
 * TensorFlow
 * NumPy

@@ -22,7 +22,7 @@ A copy of the model is already in the root directory but if you want to re train
 2. Run the `model.py` script:
 
 ```
->python model/train_model.py
+python model/train_model.py
 ```
 
 The model is saved under the file `model\model.h5`.

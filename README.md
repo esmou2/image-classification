@@ -3,10 +3,23 @@
 This is a simple FastAPI application that provides an endpoint to classify images based on a pre-trained model.
 
 
+## Requirements
+* Python 3.9 or higher
+* FastAPI
+* TensorFlow
+* NumPy
+* scikit-learn
+You can install the required Python packages by running the following command:
+
+```
+pip install -r requirements.txt
+```
+Make sure to run this command from the root directory of the project, where the requirements.txt file is located.
 
 ## How to Train the Model
 
-To train the model, run the `model.py` script:
+1. To train the model, unzip the dataset in the repository folder(`Dataset\Data for test)
+2. Run the `model.py` script:
 
 ```
 python model.py
@@ -16,7 +29,7 @@ The model is saved under the file `model\model.h5`.
 
 ## How to Run the Application
 
-Put the image you want to predict in the `image-classification` folder (example: `image.jpg`).
+Put the image you want to predict in the root directory (example: `image.jpg`).
 
 
 ### Build the Docker Image

@@ -103,7 +103,7 @@ class ImageClassifier:
 
 def main():
     print("Build the model")
-    model = ImageClassifier("Data for test")
+    model = ImageClassifier("Dataset\Data for test")
 
     print("Train the model")
     model.train_model()

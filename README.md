@@ -17,12 +17,12 @@ pip install -r requirements.txt
 Make sure to run this command from the root directory of the project, where the requirements.txt file is located.
 
 ## How to Train the Model
-
+A copy of the model is already in the root directory but if you want to re train the model follow those steps:
 1. To train the model, unzip the dataset in the repository folder(`Dataset\Data for test)
 2. Run the `model.py` script:
 
 ```
-python model.py
+>python model/train_model.py
 ```
 
 The model is saved under the file `model\model.h5`.

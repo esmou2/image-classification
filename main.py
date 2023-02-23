@@ -5,7 +5,7 @@ import numpy as np
 app = FastAPI()
 
 CLASSES_NAMES = ["Bed", "Chair", "Sofa"]
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("model/model.h5")
 img_height = 224
 img_width = 224
 
